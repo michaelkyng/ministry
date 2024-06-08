@@ -1,5 +1,5 @@
 <template>
-    <div class="h-fit w-fit">
-        <img src="/favicon.ico">
-    </div>
+  <div class="h-fit w-fit">
+    <img src="/public/favicon.ico" />
+  </div>
 </template>

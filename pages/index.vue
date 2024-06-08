@@ -1,13 +1,3 @@
 <template>
-  <div class="font-lato">
-    <NavBar/>
-  </div>
+  <div class="h-screen">Hello</div>
 </template>
-
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
-  name: 'IndexPage',
-})
-</script>
