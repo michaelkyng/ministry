@@ -53,10 +53,17 @@
           class="size-full cursor-grab"
           :direction="'horizontal'"
           :effect="'coverflow'"
+          :coverflowEffect="{
+            rotate: 250,
+            stretch: 150,
+            depth: 100,
+            modifier: 1,
+            slideShadows: false,
+          }"
           :slidesPerView="1"
           :loop="true"
           :autoplay="{
-            delay: 5000,
+            delay: 8000,
             disableOnInteraction: false,
           }"
         >

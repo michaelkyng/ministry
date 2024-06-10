@@ -2,6 +2,7 @@
   <div class="font-lato">
     <NavBar class="fixed w-full z-30" />
     <NuxtPage />
+    <Footer />
   </div>
 </template>
 <script lang="ts"></script>
